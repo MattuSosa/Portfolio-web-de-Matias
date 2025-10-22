@@ -17,19 +17,19 @@ export function Hero() {
           </p>
 
           <div className="flex gap-4 pt-4">
-            <Button variant="ghost" size="icon" asChild>
+            <Button variant="ghost" size="icon" asChild className="hover:bg-accent/10">
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github className="h-5 w-5" />
+                <Github className="h-5 w-5 text-accent" />
               </a>
             </Button>
-            <Button variant="ghost" size="icon" asChild>
+            <Button variant="ghost" size="icon" asChild className="hover:bg-accent/10">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin className="h-5 w-5" />
+                <Linkedin className="h-5 w-5 text-accent" />
               </a>
             </Button>
-            <Button variant="ghost" size="icon" asChild>
+            <Button variant="ghost" size="icon" asChild className="hover:bg-accent/10">
               <a href="mailto:tu@email.com" aria-label="Email">
-                <Mail className="h-5 w-5" />
+                <Mail className="h-5 w-5 text-accent" />
               </a>
             </Button>
           </div>

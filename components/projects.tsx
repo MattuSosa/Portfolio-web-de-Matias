@@ -35,7 +35,8 @@ export function Projects() {
     <section id="proyectos" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="space-y-4 mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Proyectos Académicos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-accent">Proyectos Académicos</h2>
+          <div className="w-16 h-1 bg-accent rounded-full"></div>
           <p className="text-lg text-muted-foreground max-w-2xl">
             Una selección de proyectos desarrollados durante mi formación como desarrollador web.
           </p>
@@ -60,7 +61,7 @@ export function Projects() {
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="secondary">
+                    <Badge key={techIndex} variant="secondary" className="bg-accent/10 text-accent hover:bg-accent/20">
                       {tech}
                     </Badge>
                   ))}
