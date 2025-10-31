@@ -4,37 +4,18 @@ import { ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "Sistema de Gestión Académica",
-    description:
-      "Aplicación web para gestionar estudiantes, cursos y calificaciones. Incluye panel de administración y reportes.",
-    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    link: "#",
-  },
-  {
-    title: "E-commerce de Productos",
-    description: "Tienda online con carrito de compras, sistema de pagos y gestión de inventario.",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    link: "#",
-  },
-  {
-    title: "Blog Personal",
-    description: "Blog con sistema de comentarios, categorías y búsqueda. Diseño responsivo y optimizado para SEO.",
-    technologies: ["Next.js", "Markdown", "Tailwind CSS"],
-    link: "#",
-  },
-  {
-    title: "Dashboard de Analíticas",
-    description: "Panel interactivo con gráficos y visualización de datos en tiempo real.",
-    technologies: ["React", "Chart.js", "Firebase", "Material UI"],
-    link: "#",
+    title: "Landing Page",
+    description: "Landing page estática con estructura semántica y diseño responsive.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://github.com/MattuSosa/Proyecto-Landing-Page",
   },
 ]
 
 export function Projects() {
   return (
-    <section id="proyectos" className="py-20 px-4">
+    <section id="proyectos" className="py-10 md:py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="space-y-4 mb-12">
+        <div className="space-y-4 mb-6 md:mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-accent">Proyectos Académicos</h2>
           <div className="w-16 h-1 bg-accent rounded-full"></div>
           <p className="text-lg text-muted-foreground max-w-2xl">
