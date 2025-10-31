@@ -7,13 +7,12 @@ export function Hero() {
       <div className="max-w-4xl w-full">
         <div className="space-y-6">
           <div className="space-y-2">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">Tu Nombre</h1>
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">Matias Sosa</h1>
             <p className="text-xl md:text-2xl text-muted-foreground">Desarrollador Web</p>
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            Construyo experiencias web accesibles y funcionales. Apasionado por crear interfaces limpias que combinan
-            diseño y código de calidad.
+            Soy Matias Sosa, desarrollador web en formación con enfoque práctico y estratégico. Este portfolio refleja mi evolución técnica en HTML, CSS, JavaScript y Git, junto con mi interés por conectar diseño, funcionalidad y experiencia de usuario.
           </p>
 
           <div className="flex gap-4 pt-4">

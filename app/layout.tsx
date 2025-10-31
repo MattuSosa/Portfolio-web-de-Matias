@@ -8,7 +8,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Portfolio - Desarrollador Web",
-  description: "Portfolio personal de desarrollador web. Proyectos, habilidades y contacto.",
+  description: "Soy Matias Sosa, desarrollador web en formación con enfoque práctico y estratégico. Este portfolio refleja mi evolución técnica en HTML, CSS, JavaScript y Git, junto con mi interés por conectar diseño, funcionalidad y experiencia de usuario.",
   generator: "v0.app",
 }
 
