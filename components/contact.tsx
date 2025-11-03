@@ -37,13 +37,13 @@ export function Contact() {
                   <span className="text-foreground">linkedin.com/in/matias-sosa-601539368</span>
                 </a>
                 <a
-                  href="mailto:Matisosa@gmail.com"
+                  href="mailto:matisosa25.9@gmail.com"
                   className="flex items-center gap-3 p-3 rounded-lg bg-card hover:bg-card/80 transition-colors group"
                 >
                   <div className="p-2 rounded-lg bg-accent/10 group-hover:bg-accent/20 transition-colors">
                     <Mail className="h-5 w-5 text-accent" />
                   </div>
-                  <span className="text-foreground">Matisosa@gmail.com</span>
+                  <span className="text-foreground">matisosa25.9@gmail.com</span>
                 </a>
               </div>
             </div>

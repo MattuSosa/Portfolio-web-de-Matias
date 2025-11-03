@@ -30,7 +30,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild className="hover:bg-accent/10">
-                <a href="mailto:Matisosa@gmail.com" aria-label="Email">
+                <a href="mailto:matisosa25.9@gmail.com" aria-label="Email">
                   <Mail className="h-5 w-5 text-accent" />
                 </a>
               </Button>
