@@ -1,0 +1,182 @@
+Prompt para V0 - Rediseno Lo Nuestro
+
+TIPO DE SITIO WEB
+IMPORTANTE: Este NO es un sitio de noticias ni un blog. Es un SITIO INSTITUCIONAL / LANDING PAGE CORPORATIVA para una empresa de medios de comunicacion.
+Similar a una pagina de presentacion corporativa o homepage institucional. Piense en sitios como landing pages de empresas de medios, no en diarios digitales.
+
+DESCRIPCION DEL PROYECTO
+Crear un sitio web moderno tipo LANDING PAGE INSTITUCIONAL para Lo Nuestro, una empresa de medios de comunicacion local.
+El sitio debe presentar los servicios y canales de la empresa (Radio FM 93.5, Canal 5 Lo Nuestro) de forma elegante y profesional.
+NO es un portal de noticias, NO es un blog, es una pagina corporativa de presentacion.
+El enfoque debe estar en mostrar los canales de comunicacion de forma destacada.
+
+ESTRUCTURA DE LA PAGINA (Single Page Application - Todo en una pagina)
+
+Header/Navbar Fijo
+- Logo Lo Nuestro a la izquierda
+- Menu de navegacion simple: Inicio (scroll), Radio, Canal, Contacto
+- Diseno moderno, minimalista, con hover effects sutiles
+- Fondo solido o semi-transparente
+
+Hero Section (Primera seccion visible)
+- Gran titulo: Lo Nuestro o similar
+- Subtitulo: Portal multimedia local / Tu medio de comunicacion
+- Botones CTA: Escuchar Radio, Ver Canal, Contacto
+- Imagen de fondo opcional (sutil, no distrae)
+- Diseno tipo landing page moderna, no tipo noticias
+
+Seccion 1: Ruleta Manual de 3 Secciones (PRESENTACION DE CANALES)
+Tipo: Carrusel/Carousel navegable manualmente (NO automatico)
+Contenido:
+1. Santisimo - Seccion religiosa/espiritual
+2. Radio FM 93.5 - Presentacion de la emisora de radio
+3. Canal 5 Lo Nuestro - Presentacion del canal de television
+
+Diseno de cada card:
+- Imagen de fondo grande o icono destacado
+- Titulo grande y claro
+- Descripcion breve
+- Boton Call to Action (Ej: Escuchar ahora, Ver canal)
+- Cards estilo moderno, con sombra, hover effect
+
+Requisitos:
+- Navegacion manual con botones/flechas laterales
+- Indicadores de posicion (dots)
+- Transiciones suaves
+- Responsive (movil y desktop)
+- NO mostrar contenido tipo noticias, solo presentacion
+
+Seccion 2: Informacion del Dueño / Director
+Contenido:
+- Foto del dueño/director (avatar/imagen circular grande)
+- Nombre completo
+- Cargo/Rol (Ej: Director, Fundador)
+- Descripcion breve/Texto biografico (2-3 lineas)
+- Redes sociales o contacto (opcional)
+- Diseno elegante tipo About section, centrado
+
+Seccion 3: Ruleta Manual con Lives / Transmisiones en Vivo
+Tipo: Carrusel manual para mostrar transmisiones destacadas
+Contenido:
+- Multiples cards horizontales
+- Cada card muestra:
+  - Imagen thumbnail o preview
+  - Titulo del live
+  - Estado: En vivo ahora / Proximamente
+  - Boton Ver ahora / Ver mas
+- Navegacion manual con flechas
+- NO es una seccion de noticias, solo muestra transmisiones destacadas
+
+Seccion 4: Ruleta Automatica con Patrocinadores
+Tipo: Carrusel automatico (auto-play)
+Contenido:
+- Logos de patrocinadores en fila horizontal
+- Debe rotar automaticamente (cada 3-5 segundos)
+- Pausar automaticamente al hacer hover
+- Transiciones suaves entre logos
+- Logos con mismo tamano, alineados
+- Fondo neutro o transparente
+
+Footer
+- Informacion de contacto (direccion, telefono, email)
+- Redes sociales con iconos
+- Copyright y ano
+- Links adicionales si aplica
+- Diseno simple y limpio
+
+DISENO Y ESTILO
+
+Tipo de Diseno:
+- LANDING PAGE MODERNA / CORPORATIVA
+- NO diseno de diario, NO diseno de blog, NO diseno de portal de noticias
+- Estilo: Limpio, moderno, profesional, minimalista
+- Similar a landing pages de empresas de tecnologia o medios modernos
+
+Paleta de Colores
+- Colores profesionales (azules oscuros, blancos, grises claros)
+- Acentos vibrantes pero elegantes (para botones CTA)
+- Buen contraste para legibilidad
+- Evitar colores muy saturados tipo periodico
+
+Tipografia
+- Fuente moderna, sans-serif (ej: Inter, Poppins, Roboto)
+- Jerarquia clara (h1 grande para hero, h2 para secciones)
+- Interlineado generoso
+- NO tipografia tipo diario tradicional
+
+Estilo General
+- Mucho espacio en blanco (espaciado generoso)
+- Secciones bien separadas
+- Sombras sutiles para profundidad
+- Animaciones suaves y discretas (no excesivas)
+- Diseño responsive (mobile-first)
+- Cards con bordes redondeados
+- NO layout tipo columnas de noticias
+
+TECNOLOGIAS REQUERIDAS
+- Next.js 15+ (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS
+- Componentes reutilizables y modulares
+- Usar shadcn/ui o componentes similares si estan disponibles
+- Para carruseles: usar Embla Carousel o similar
+
+ESTRUCTURA DE ARCHIVOS SUGERIDA
+- app/page.tsx (pagina principal)
+- components/Hero.tsx
+- components/ChannelsCarousel.tsx (ruleta de canales)
+- components/OwnerInfo.tsx
+- components/LivesCarousel.tsx
+- components/SponsorsCarousel.tsx
+- components/Header.tsx
+- components/Footer.tsx
+
+NOTAS IMPORTANTES
+- CRITICO: NO disenar como pagina de noticias o diario digital
+- Es una LANDING PAGE CORPORATIVA / INSTITUCIONAL
+- NO incluir secciones de noticias, articulos, blog posts
+- NO incluir ninguna seccion relacionada con libros o promociones de libros
+- Enfoque principal en PRESENTAR los canales de comunicacion
+- Todos los contenidos deben estar hardcodeados inicialmente (textos de ejemplo, imagenes placeholder)
+- El diseno debe estar preparado para integrar contenido dinamico despues
+- Las ruletas/carruseles deben funcionar correctamente en movil y desktop
+- El codigo debe ser limpio y bien estructurado
+- Usar imagenes placeholder de Unsplash o similar para ejemplos
+
+EJEMPLO DE CONTENIDO PLACEHOLDER
+
+Hero:
+Titulo: Lo Nuestro - Tu Medio de Comunicacion Local
+Subtitulo: Radio FM 93.5 | Canal 5 | Contenido Local
+
+Ruleta de Canales:
+- Santisimo: Contenido espiritual y religioso para toda la familia
+- Radio FM 93.5: Tu radio local, siempre contigo
+- Canal 5 Lo Nuestro: Television local con programacion variada
+
+Patrocinadores:
+- Logo Empresa 1
+- Logo Empresa 2
+- Logo Empresa 3
+- Logo Empresa 4
+
+Lives:
+- Live: Programacion Especial de Hoy
+- Live: Entrevista en Vivo
+- Live: Evento Local
+
+REFERENCIAS DE DISENO
+Buscar inspiracion en:
+- Landing pages corporativas modernas
+- Sitios de empresas de medios (no portales de noticias)
+- Homepages de estaciones de radio/TV
+- NO en diarios digitales ni blogs de noticias
+
+INSTRUCCION FINAL PARA V0
+Genera el codigo completo de una LANDING PAGE CORPORATIVA/INSTITUCIONAL moderna, NO una pagina de noticias.
+Incluye todas las secciones mencionadas usando Next.js, TypeScript, Tailwind CSS y componentes modernos.
+Asegurate de que las ruletas/carruseles funcionen correctamente y el diseno sea responsive.
+El estilo debe ser elegante, profesional y moderno, como una empresa de medios corporativa, no un portal de noticias.
+
+

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="#111827"/>
+  <!-- Accent ring -->
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#38bdf8" stroke-width="12"/>
+  <!-- Stylized M -->
+  <path d="M56 182 V74 a10 10 0 0 1 10-10 h16 a10 10 0 0 1 9 6 l37 78 37-78 a10 10 0 0 1 9-6 h16 a10 10 0 0 1 10 10 v108 a10 10 0 0 1-10 10 h-16 a10 10 0 0 1-10-10 V129 l-27 57 a10 10 0 0 1-18 0 l-27-57 v53 a10 10 0 0 1-10 10 H66 a10 10 0 0 1-10-10z" fill="#ffffff"/>
+</svg>
