@@ -7,7 +7,7 @@ const projects = [
     title: "Landing Page",
     description: "Landing page estática con estructura semántica y diseño responsive.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://github.com/MattuSosa/Proyecto-Landing-Page",
+    link: "https://mattusosa.github.io/Proyecto-Landing-Page/",
   },
 ]
 
