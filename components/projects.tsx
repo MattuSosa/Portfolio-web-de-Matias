@@ -9,6 +9,12 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://mattusosa.github.io/Proyecto-Landing-Page/",
   },
+  {
+    title: "Lo Nuestro - Landing Page",
+    description: "Landing page institucional para organización católica que desarrolla proyectos de impacto positivo y acompañamiento espiritual en la comunidad.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    link: "https://lo-nuestro-fu8owuz3x-mati-259-5608s-projects.vercel.app/",
+  },
 ]
 
 export function Projects() {
